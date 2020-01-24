@@ -1,0 +1,61 @@
+{
+  "name": "tynder-express-react-ts-esm-quickstart",
+  "description": "A boilerplate for React client + Express server project using Tynder data validation library.",
+  "keywords": [
+    "tynder",
+    "boilerplate",
+    "express",
+    "React",
+    "TypeScript",
+    "esm",
+    "ES Modules",
+    "quickstart",
+    "template",
+    "schema",
+    "validation"
+  ],
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf ./bin",
+    "build": "tsc --outDir bin",
+    "start": "npm run start:v12",
+    "start:v12": "node --experimental-modules --es-module-specifier-resolution=node --experimental-json-modules ./bin/www",
+    "start:v13": "node --es-module-specifier-resolution=node --experimental-json-modules ./bin/www",
+    "start:cjs": "node ./bin/www",
+    "schema": "npm run schema:1 && npm run schema:2 && npm run schema:3 && npm run schema:4",
+    "schema:1": "tynder compile-as-ts --indir schema --outdir src/schema-compiled",
+    "schema:2": "tynder gen-ts --indir schema --outdir src/schema-types",
+    "schema:3": "cp -R src/schema-compiled client/src/.",
+    "schema:4": "cp -R src/schema-types client/src/."
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
+    "http-errors": "~1.7.3",
+    "morgan": "~1.9.1",
+    "tynder": "0.0.14",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.2",
+    "@types/http-errors": "^1.6.3",
+    "@types/morgan": "^1.7.37"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shellyln/tynder-express-react-ts-esm-quickstart.git"
+  },
+  "author": "shellyln",
+  "homepage": "https://shellyln.github.io/",
+  "bugs": {
+    "url": "https://github.com/shellyln/tynder-express-react-ts-esm-quickstart/issues"
+  },
+  "license": "ISC"
+}
