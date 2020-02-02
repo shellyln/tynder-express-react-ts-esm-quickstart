@@ -12,7 +12,7 @@ const schema = {
             {
               "kind": "primitive",
               "primitiveName": "string",
-              "pattern": "^[A-Z].+$",
+              "pattern": "/^[A-Z].+$/",
               "name": "name"
             },
             false,
@@ -31,7 +31,7 @@ const schema = {
             {
               "kind": "primitive",
               "primitiveName": "string",
-              "pattern": "^H.+$",
+              "pattern": "/^H.+$/",
               "name": "greeting"
             },
             false,
