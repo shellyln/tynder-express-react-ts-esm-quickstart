@@ -39,7 +39,7 @@
     "express": "^4.17.1",
     "http-errors": "^1.7.3",
     "morgan": "^1.9.1",
-    "tynder": "^0.0.24",
+    "tynder": "^0.0.27",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
