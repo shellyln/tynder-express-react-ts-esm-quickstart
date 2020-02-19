@@ -71,7 +71,7 @@ const App: React.FC = () => {
                 setGreet(initialGreet);
             }
 
-            const payload: GreetingResponseMessage = await resp.json();
+            const payload: unknown = await resp.json();
             {
                 const ctx: Partial<ValidationContext> = {};
                 const validated = validate<GreetingResponseMessage>(payload, getType(schema, 'GreetingResponseMessage'), ctx);
