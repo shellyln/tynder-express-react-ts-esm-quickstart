@@ -1,6 +1,6 @@
 {
   "name": "tynder-express-react-ts-esm-quickstart",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": false,
   "description": "A boilerplate for React client + Express server project using Tynder data validation library.",
   "keywords": [
