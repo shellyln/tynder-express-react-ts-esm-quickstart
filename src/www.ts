@@ -8,9 +8,9 @@ import * as http         from 'http';
 import { AddressInfo }   from 'net';
 import { HttpError }     from 'http-errors';
 import app               from './app';
-import { createRequire } from 'module';
+import module            from 'module';
 
-const require = createRequire(import.meta.url);
+const require = module.createRequire(import.meta.url);
 const debug = require('debug')('myexpressapp:server');
 
 
