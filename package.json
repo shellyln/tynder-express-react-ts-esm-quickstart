@@ -39,15 +39,15 @@
     "express": "^4.17.1",
     "http-errors": "^1.7.3",
     "morgan": "^1.10.0",
-    "tynder": "^0.3.11",
+    "tynder": "^0.5.0",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
-    "@types/express": "^4.17.3",
+    "@types/express": "^4.17.6",
     "@types/http-errors": "^1.6.3",
     "@types/morgan": "^1.9.0",
-    "@types/node": "^12.12.31"
+    "@types/node": "^13.13.2"
   },
   "repository": {
     "type": "git",
