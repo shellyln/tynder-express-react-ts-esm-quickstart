@@ -37,17 +37,17 @@
     "cookie-parser": "^1.4.5",
     "debug": "^4.1.1",
     "express": "^4.17.1",
-    "http-errors": "^1.7.3",
+    "http-errors": "^1.8.0",
     "morgan": "^1.10.0",
-    "tynder": "^0.6.2",
-    "typescript": "^3.8.3"
+    "tynder": "^0.6.4",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "@types/cookie-parser": "^1.4.2",
-    "@types/express": "^4.17.6",
-    "@types/http-errors": "^1.6.3",
-    "@types/morgan": "^1.9.0",
-    "@types/node": "^13.13.5"
+    "@types/express": "^4.17.7",
+    "@types/http-errors": "^1.8.0",
+    "@types/morgan": "^1.9.1",
+    "@types/node": "^14.0.27"
   },
   "repository": {
     "type": "git",
